@@ -1,6 +1,7 @@
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
