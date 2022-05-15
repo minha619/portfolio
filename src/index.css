@@ -7,13 +7,52 @@ body {
   color: white;
 }
 
+.container {
+  margin-left: 20px;
+}
+
 .main-container {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-left: 15px;
 }
 
-#about-container {
-  margin: auto;
-  width: 1200px;
-  text-align: center;
+#home-container {
+  margin: 130px 0 0 60px;
+  width: 800px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
 }
+
+#about-container {
+  margin: 130px 0 0 60px;
+  width: 800px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#projects-container {
+  margin: 130px 0 0 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.uk-button {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+#about-p {
+  font-size: 19px;
+  color: grey;
+  background: -webkit-linear-gradient(#eee, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.8;
+}
+
+.skills {
+  margin-top: 10px;
+  color: grey;
+}
+
