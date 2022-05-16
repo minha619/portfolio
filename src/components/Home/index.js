@@ -7,7 +7,7 @@ function Home() {
                 Hello, <br></br>
                 I'm Minha Kim. <br></br>
                 I'm a front-end web developer.
-                <button class="uk-button uk-button-default" uk-tooltip="title: VIEW PORTFOLIO; pos: bottom">Check out more</button>
+                <button class="uk-button uk-button-default" uk-tooltip="title: VIEW PORTFOLIO; pos: bottom" >Check out more</button>
             </div>
         </div>
     );

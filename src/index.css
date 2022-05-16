@@ -61,10 +61,6 @@ h3 {
   width: auto;
 }
 
-.uk-card {
-  background-color: grey;
-  width: 40px;
-}
 
 #contact-container {
   margin: 120px 0 0 60px;
@@ -93,4 +89,43 @@ a, a:focus, a:active {
 
 a:hover {
   color: grey;
+}
+
+.uk-card {
+  background-color: rgb(28, 28, 28);
+}
+
+
+.img-thumbnail {
+  width: auto;
+  height: 350px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  margin-right:15px;
+}
+
+.modalBackdrop {
+	background: black;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modalContainer {
+	background: var(--light);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
 }

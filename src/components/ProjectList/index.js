@@ -8,7 +8,7 @@ const ProjectList = ({ category }) => {
       category: 'projects',
       description:
         'Based on the internet sensation “Farm RPG” - SPACE-RPG allows you to go on the text based adventure of a lifetime.. The user will be able to add expenses and deposits to their budget with or without a internet connection.',
-      website: 'https://quiet-mountain-05103.herokuapp.com/dashboard'
+      website: 'https://stormy-hollows-10377.herokuapp.com/'
     },
     {
       name: 'Bucket List',
@@ -39,20 +39,20 @@ const ProjectList = ({ category }) => {
   }
 
 
+
   return (
     <div>
-      {isModalOpen && (<Modal />)}
-      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
-        <div>
-          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Space RPG</h3>
-          </div>
-        </div>
-        <div>
-          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title"></h3>
-          </div>
-        </div>
+      {isModalOpen && (<Modal currentPhoto={currentPhoto} onClose={toggleModal} />)}
+      <div className="flex-row">
+        {currentPhotos.map((image, i) => (
+          <img
+            src={require(`../../assets/small/${category}/${i}.jpg`)}
+            alt={image.name}
+            className="img-thumbnail mx-1"
+            onClick={() => toggleModal(image, i)}
+            key={image.name}
+          />
+        ))}
       </div>
     </div>
   );

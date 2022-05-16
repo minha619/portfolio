@@ -10,8 +10,8 @@ const Modal = ({ onClose, currentPhoto }) => {
                 <img src={require(`../../assets/large/${category}/${index}.jpg`)} alt="current category" />
                 <p>{description}</p>
                 <p><a href={website} target="blank">Visit the website!</a></p>
-                <button onClick={onClose} type="button">
-                    Close this modal
+                <button onClick={onClose} type="button" class="uk-button uk-button-default">
+                    Close
                 </button>
             </div>
         </div>
