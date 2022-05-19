@@ -8,7 +8,7 @@ function Nav() {
                     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                         <div class="uk-navbar-left">
                             <ul class="uk-navbar-nav">
-                                <li> <Link to='/'> M </Link></li>
+                                <li> <Link to='portfolio/'> M </Link></li>
                                 <li> <Link to='/about'> About </Link></li>
                                 <li> <Link to='/projects'> Projects </Link></li>
                                 <li> <Link to='/contact'> Contact </Link></li>
